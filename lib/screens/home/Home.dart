@@ -198,6 +198,7 @@ class Home extends StatelessWidget {
                       ),
                       child: Wrap(
                         spacing: DEVICE_WIDTH * 0.2,
+                        alignment: WrapAlignment.center,
                         children: achivementList
                             .map(
                               (e) => AchivmentBox(
