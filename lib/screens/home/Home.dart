@@ -46,12 +46,14 @@ class Home extends StatelessWidget {
                           style: CommonTextStyles().h1Style().copyWith(
                                 fontweight: FontWeight.bold,
                                 fontSize: 60,
+                                fontFamily: 'Righteous',
                               ),
                           inlineSpans: [
                             TextSpan(
                               text: ' look \nand feel native',
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
+                                fontFamily: 'Righteous',
                                 fontSize: 60,
                                 color: Color(
                                   SECONDARY_COLOR,
@@ -66,7 +68,9 @@ class Home extends StatelessWidget {
                         CommonText(
                           text:
                               'Common UI toolkit is a high-quality, that covered in all major use-cases.',
-                          style: CommonTextStyles().h2Style(),
+                          style: CommonTextStyles().h2Style().copyWith(
+                                fontFamily: 'Righteous',
+                              ),
                           containerStyle: CommonContainerModel(
                             width: DEVICE_WIDTH * 0.4,
                             marginTop: DEVICE_HEIGHT * 0.13,
@@ -97,6 +101,7 @@ class Home extends StatelessWidget {
                                   style: CommonTextStyles().h3Style().copyWith(
                                         fontColor: PRIMARY_COLOR,
                                         fontweight: FontWeight.bold,
+                                        fontFamily: 'Righteous',
                                       ),
                                 ),
                               ),
@@ -116,6 +121,7 @@ class Home extends StatelessWidget {
                                   style: CommonTextStyles().h3Style().copyWith(
                                         fontColor: SECONDARY_COLOR,
                                         fontweight: FontWeight.bold,
+                                        fontFamily: 'Righteous',
                                       ),
                                 ),
                               )
