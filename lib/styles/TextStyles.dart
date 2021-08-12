@@ -5,6 +5,7 @@ class TextStyles {
     fontSize: H1_FONT,
     fontweight: FontWeight.bold,
     fontFamily: 'Righteous',
+    fontColor: WHITE_COLOR,
   );
 
   CommonTextModel thinTextStyle = CommonTextModel(
@@ -13,10 +14,13 @@ class TextStyles {
     fontweight: FontWeight.bold,
     fontFamily: 'Righteous',
     decorationThickness: 5,
+    decorationColor: WHITE_COLOR,
+    fontColor: WHITE_COLOR,
   );
   CommonTextModel smallTextStyle = CommonTextModel(
-    fontColor: BLACK_COLOR,
     fontSize: H4_FONT,
+    fontColor: WHITE_COLOR,
     fontFamily: 'Righteous',
+    decorationColor: WHITE_COLOR,
   );
 }

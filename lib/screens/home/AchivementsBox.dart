@@ -2,8 +2,8 @@ import 'package:common_ui_toolkit/components/index.dart';
 import 'package:common_ui_toolkit/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hroka/styles/index.dart';
 
+import '../../index.dart';
 import '../../utils/Helper.dart';
 import '../../utils/index.dart';
 
@@ -26,6 +26,7 @@ class AchivmentBox extends StatelessWidget {
           icon!,
           width: DEVICE_WIDTH * 0.05,
           height: DEVICE_WIDTH * 0.05,
+          color: Color(WHITE_COLOR),
         ),
         CommonText(
           containerStyle: CommonContainerModel(
