@@ -1,6 +1,6 @@
 {
-    "name": "hroka",
-    "short_name": "hroka",
+    "name": "Common_UI_Docs",
+    "short_name": "Common_UI_Docs",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
