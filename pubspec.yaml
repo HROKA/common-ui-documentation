@@ -29,6 +29,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   common_ui_toolkit: ^0.1.2
+  get: ^4.3.0
+  get_storage: ^2.0.2
+  flutter_smart_dialog: ^2.1.6
+  pin_code_fields: ^7.3.0
+  timer_count_down: ^2.2.0
+  flutter_svg: ^0.22.0
+  carousel_slider: ^4.0.0
+  dio: ^4.0.0
+  intl: ^0.17.0
+  flutter_launcher_icons: ^0.9.1
+  flutter_countdown_timer: ^4.1.0
 
 dev_dependencies:
   flutter_test:

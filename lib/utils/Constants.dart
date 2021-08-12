@@ -1,4 +1,5 @@
 //   **** Routes *****
+const HOME_ROUTE = '/';
 const CONTAINERS_ROUTE = '/containers';
 const TEXTS_ROUTE = '/texts';
 const DATE_PICKERS_ROUTE = '/datePicker';
