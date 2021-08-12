@@ -291,10 +291,15 @@ class Home extends StatelessWidget {
                               ],
                             ),
                           ),
-                          Image.network(
-                            'https://i.imgur.com/oEHgNuI.png',
-                            width: DEVICE_WIDTH * 0.2,
-                            height: DEVICE_HEIGHT * 0.7,
+                          CommonContainer(
+                            style: CommonContainerModel(
+                              marginTop: DEVICE_HEIGHT * 0.1,
+                            ),
+                            child: Image.network(
+                              'https://i.imgur.com/oEHgNuI.png',
+                              width: DEVICE_WIDTH * 0.2,
+                              height: DEVICE_HEIGHT * 0.7,
+                            ),
                           ),
                         ],
                       ),
