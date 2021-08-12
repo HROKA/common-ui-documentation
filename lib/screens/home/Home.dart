@@ -137,7 +137,7 @@ class Home extends StatelessWidget {
                       style: CommonContainerModel(
                         backgroundColor: SECONDARY_COLOR,
                         width: DEVICE_WIDTH,
-                        height: DEVICE_HEIGHT * 0.2,
+                        height: DEVICE_HEIGHT * 0.15,
                       ),
                     ),
                   ),
