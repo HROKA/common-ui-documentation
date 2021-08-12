@@ -5,6 +5,7 @@ class TextStyles {
     fontColor: WHITE_COLOR,
     fontFamily: 'Righteous',
     decorationColor: WHITE_COLOR,
+    decorationThickness: 5,
   );
 
   CommonTextModel smallTextStyle() => defaultTextStyle.copyWith(
@@ -20,6 +21,5 @@ class TextStyles {
         textDecoration: TextDecoration.underline,
         fontSize: H2_FONT,
         fontweight: FontWeight.bold,
-        decorationThickness: 5,
       );
 }

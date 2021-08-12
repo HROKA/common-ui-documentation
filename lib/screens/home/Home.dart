@@ -276,7 +276,6 @@ class Home extends StatelessWidget {
                                               .copyWith(
                                                 textDecoration:
                                                     TextDecoration.underline,
-                                                decorationThickness: 5,
                                               ),
                                           onPress: () {
                                             launchURL(

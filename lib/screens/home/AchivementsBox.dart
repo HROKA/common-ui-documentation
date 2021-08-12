@@ -50,7 +50,6 @@ class AchivmentBox extends StatelessWidget {
                 child: CommonText(
                   style: TextStyles().smallTextStyle().copyWith(
                         textDecoration: TextDecoration.underline,
-                        decorationThickness: 2,
                       ),
                   text: inlineText,
                   onPress: () {
