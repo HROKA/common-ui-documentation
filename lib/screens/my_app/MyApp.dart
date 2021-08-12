@@ -25,11 +25,12 @@ class MyApp extends StatelessWidget {
       //     child: FlutterSmartDialog(child: child),
       //   );
       // },
-      // theme: ThemeData(
-      //   fontFamily: appLanguageController.appLocale == ARABIC_VALUE
-      //       ? 'GeFlow'
-      //       : 'Futura',
-      // ),
+      theme: ThemeData(
+        fontFamily: 'Righteous',
+        //  appLanguageController.appLocale == ARABIC_VALUE
+        //     ? 'GeFlow'
+        //     : 'Futura',
+      ),
 
       // translations: Translation(),
       // we use the fallbackLocale to handel any error in language files and use the en as default language
