@@ -186,7 +186,7 @@ class Home extends StatelessWidget {
                 child: Column(
                   children: [
                     CommonText(
-                      style: TextStyles().thickTextStyle,
+                      style: TextStyles().thickTextStyle(),
                       containerStyle: CommonContainerModel(
                         marginTop: DEVICE_HEIGHT * 0.1,
                       ),
@@ -214,6 +214,7 @@ class Home extends StatelessWidget {
                     CommonContainer(
                       style: CommonContainerModel(
                         width: DEVICE_WIDTH,
+                        paddingVertical: DEVICE_HEIGHT * 0.1,
                         backgroundImage: DecorationImage(
                           image: NetworkImage(
                             'https://i.imgur.com/4eaRaRh.png',
@@ -228,25 +229,22 @@ class Home extends StatelessWidget {
                         children: [
                           CommonContainer(
                             style: CommonContainerModel(
-                              width: DEVICE_WIDTH * 0.4,
+                              width: DEVICE_WIDTH * 0.3,
                               marginTop: DEVICE_HEIGHT * 0.1,
                             ),
                             child: Column(
                               children: [
                                 CommonText(
                                   text: 'Look',
-                                  style: TextStyles().thinTextStyle.copyWith(
-                                        fontColor: WHITE_COLOR,
-                                      ),
+                                  style: TextStyles().thinTextStyle(),
                                 ),
                                 CommonText(
                                   text: 'What make your app looks native!',
                                   containerStyle: CommonContainerModel(
                                     marginTop: DEVICE_HEIGHT * 0.05,
                                   ),
-                                  style: TextStyles().thickTextStyle.copyWith(
+                                  style: TextStyles().thickTextStyle().copyWith(
                                         fontSize: H2_FONT,
-                                        fontColor: WHITE_COLOR,
                                       ),
                                 ),
                                 CommonText(
@@ -255,20 +253,48 @@ class Home extends StatelessWidget {
                                   containerStyle: CommonContainerModel(
                                     marginTop: DEVICE_HEIGHT * 0.02,
                                   ),
-                                  style: TextStyles().thickTextStyle.copyWith(
+                                  style: TextStyles().thickTextStyle().copyWith(
                                         fontSize: H4_FONT,
-                                        fontColor: WHITE_COLOR,
                                       ),
+                                ),
+                                CommonText(
+                                  text:
+                                      'Need a customized UI kit for Android, iOS, Web, Windows Or Mac applications? ',
+                                  containerStyle: CommonContainerModel(
+                                    marginTop: DEVICE_HEIGHT * 0.2,
+                                  ),
+                                  style: TextStyles().defaultTextStyle,
+                                  inlineSpans: [
+                                    WidgetSpan(
+                                      child: MouseRegion(
+                                        cursor: SystemMouseCursors.click,
+                                        child: CommonText(
+                                          text: 'Get started',
+                                          style: TextStyles()
+                                              .smallTextStyle()
+                                              .copyWith(
+                                                textDecoration:
+                                                    TextDecoration.underline,
+                                                decorationThickness: 5,
+                                              ),
+                                          onPress: () {
+                                            launchURL(
+                                              url:
+                                                  'https://pub.dev/packages/common_ui_toolkit',
+                                            );
+                                          },
+                                        ),
+                                      ),
+                                    ),
+                                  ],
                                 ),
                               ],
                             ),
                           ),
-                          CommonContainer(
-                            style: CommonContainerModel(
-                              width: DEVICE_WIDTH * 0.2,
-                              height: DEVICE_HEIGHT * 0.5,
-                              backgroundColor: BLACK_COLOR,
-                            ),
+                          Image.network(
+                            'https://i.imgur.com/oEHgNuI.png',
+                            width: DEVICE_WIDTH * 0.2,
+                            height: DEVICE_HEIGHT * 0.7,
                           ),
                         ],
                       ),

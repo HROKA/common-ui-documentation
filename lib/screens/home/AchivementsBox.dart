@@ -32,7 +32,7 @@ class AchivmentBox extends StatelessWidget {
           containerStyle: CommonContainerModel(
             marginTop: DEVICE_HEIGHT * 0.03,
           ),
-          style: TextStyles().thickTextStyle.copyWith(
+          style: TextStyles().thickTextStyle().copyWith(
                 fontSize: FONT_SIZE_LARGE,
               ),
           text: title,
@@ -41,14 +41,14 @@ class AchivmentBox extends StatelessWidget {
           containerStyle: CommonContainerModel(
             marginTop: DEVICE_HEIGHT * 0.03,
           ),
-          style: TextStyles().smallTextStyle,
+          style: TextStyles().smallTextStyle(),
           text: description,
           inlineSpans: [
             WidgetSpan(
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
                 child: CommonText(
-                  style: TextStyles().smallTextStyle.copyWith(
+                  style: TextStyles().smallTextStyle().copyWith(
                         textDecoration: TextDecoration.underline,
                         decorationThickness: 2,
                       ),
