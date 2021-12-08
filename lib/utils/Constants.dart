@@ -7,3 +7,6 @@ const DATE_PICKERS_ROUTE = '/datePicker';
 //   **** Colors *****
 const PRIMARY_COLOR = 0xFFffe1d4;
 const SECONDARY_COLOR = 0xFFff6721;
+
+/// ********* Fonts sizes *********
+const FONT_SIZE_LARGE = 42.0;
