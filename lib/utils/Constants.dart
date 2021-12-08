@@ -1,8 +1,9 @@
 //   **** Routes *****
-const HOME_ROUTE = '/';
+const HOME_ROUTE = '/home';
 const CONTAINERS_ROUTE = '/containers';
 const TEXTS_ROUTE = '/texts';
 const DATE_PICKERS_ROUTE = '/datePicker';
+const PAGE_NOT_FOUND = '/404';
 
 //   **** Colors *****
 const PRIMARY_COLOR = 0xFFffe1d4;

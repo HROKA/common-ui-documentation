@@ -1,9 +1,9 @@
 import 'dart:ui';
 
+import 'package:Common_UI_Docs/utils/Constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:Common_UI_Docs/utils/Constants.dart';
 
 // import '../../controllers/AppLanguage.dart';
 import '../index.dart';
@@ -43,6 +43,7 @@ class MyApp extends StatelessWidget {
         GetPage(name: TEXTS_ROUTE, page: () => Texts()),
         GetPage(name: DATE_PICKERS_ROUTE, page: () => DatePickers()),
       ],
+      unknownRoute: GetPage(name: PAGE_NOT_FOUND, page: () => PageNotFound()),
     );
   }
 }
