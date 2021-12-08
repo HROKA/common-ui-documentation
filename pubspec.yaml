@@ -28,7 +28,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  common_ui_toolkit: ^0.1.2
+  common_ui_toolkit: ^0.2.8
   get: ^4.3.0
   get_storage: ^2.0.2
   flutter_smart_dialog: ^2.1.6
@@ -60,7 +60,6 @@ flutter:
   assets:
     - assets/
     - assets/icons/
-    - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

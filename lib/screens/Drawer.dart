@@ -1,6 +1,7 @@
 import 'package:common_ui_toolkit/index.dart';
-import '../../utils/Constants.dart';
 import 'package:flutter/material.dart';
+
+import '../../utils/Constants.dart';
 
 class DrawerContainer extends StatelessWidget {
   final List screens = [
@@ -76,7 +77,7 @@ class DrawerHeader extends StatelessWidget {
             alignment: Alignment.bottomCenter,
             shadowOffsetDY: 10,
             backgroundColor: PRIMARY_COLOR,
-            borderRaduis: 0,
+            borderRadius: 0,
             bottomLeftRadius: 30,
             bottomRightRadius: 30,
           ),

@@ -44,7 +44,7 @@ class Home extends StatelessWidget {
                         CommonText(
                           text: 'Making your Flutter apps',
                           style: CommonTextStyles().h1Style().copyWith(
-                                fontweight: FontWeight.bold,
+                                fontWeight: FontWeight.bold,
                                 fontSize: 60,
                                 fontFamily: 'Righteous',
                               ),
@@ -100,7 +100,7 @@ class Home extends StatelessWidget {
                                   text: 'Learn more',
                                   style: CommonTextStyles().h3Style().copyWith(
                                         fontColor: PRIMARY_COLOR,
-                                        fontweight: FontWeight.bold,
+                                        fontWeight: FontWeight.bold,
                                         fontFamily: 'Righteous',
                                       ),
                                 ),
@@ -120,7 +120,7 @@ class Home extends StatelessWidget {
                                   text: 'Docs',
                                   style: CommonTextStyles().h3Style().copyWith(
                                         fontColor: SECONDARY_COLOR,
-                                        fontweight: FontWeight.bold,
+                                        fontWeight: FontWeight.bold,
                                         fontFamily: 'Righteous',
                                       ),
                                 ),
