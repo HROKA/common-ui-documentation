@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:Common_UI_Docs/screens/documentation/index.dart';
 import 'package:Common_UI_Docs/utils/Constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -42,6 +43,7 @@ class MyApp extends StatelessWidget {
         GetPage(name: CONTAINERS_ROUTE, page: () => Containers()),
         GetPage(name: TEXTS_ROUTE, page: () => Texts()),
         GetPage(name: DATE_PICKERS_ROUTE, page: () => DatePickers()),
+        GetPage(name: DOCUMENT_HOME_ROUTE, page: () => DocumentHome()),
       ],
       unknownRoute: GetPage(name: PAGE_NOT_FOUND, page: () => PageNotFound()),
     );

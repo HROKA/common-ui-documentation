@@ -3,6 +3,7 @@ const HOME_ROUTE = '/home';
 const CONTAINERS_ROUTE = '/containers';
 const TEXTS_ROUTE = '/texts';
 const DATE_PICKERS_ROUTE = '/datePicker';
+const DOCUMENT_HOME_ROUTE = '/docs';
 const PAGE_NOT_FOUND = '/404';
 
 //   **** Colors *****

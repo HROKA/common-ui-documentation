@@ -1,7 +1,5 @@
-import 'package:common_ui_toolkit/components/common_container/CommonContainer.dart';
 import 'package:common_ui_toolkit/index.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../index.dart';
 
@@ -130,7 +128,8 @@ class Home extends StatelessWidget {
                                       type: TouchTypes.scaleAndFade,
                                     ),
                                   ),
-                                  onPress: () {},
+                                  onPress: () =>
+                                      Get.toNamed(DOCUMENT_HOME_ROUTE),
                                   child: CommonText(
                                     text: 'Docs',
                                     style:
