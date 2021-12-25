@@ -104,7 +104,7 @@ class Home extends StatelessWidget {
                                     height: DEVICE_HEIGHT * 0.07,
                                     alignment: Alignment.center,
                                     touchEffect: TouchableEffect(
-                                      type: TouchTypes.scaleAndFade,
+                                      type: TouchTypes.opacity,
                                     ),
                                   ),
                                   onPress: () {},
@@ -125,7 +125,7 @@ class Home extends StatelessWidget {
                                     height: DEVICE_HEIGHT * 0.07,
                                     alignment: Alignment.center,
                                     touchEffect: TouchableEffect(
-                                      type: TouchTypes.scaleAndFade,
+                                      type: TouchTypes.opacity,
                                     ),
                                   ),
                                   onPress: () =>
